@@ -18,7 +18,7 @@ class Musician:
     def __str__(self):
         return f'I am a {self.role}'
 
-    def __repl__(self):
+    def __repr__(self):
         return self.role
     
     def play_solo(self):

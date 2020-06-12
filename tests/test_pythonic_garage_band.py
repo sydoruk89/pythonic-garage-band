@@ -13,7 +13,7 @@ def test_guitarist_str():
 
 
 def test_bassist_repl():
-    actual = Bassist('bassist', 'bass').__repl__()
+    actual = Bassist('bassist', 'bass').__repr__()
     expected = 'bassist'
     assert actual == expected
 
